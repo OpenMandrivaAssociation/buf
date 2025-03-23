@@ -36,5 +36,5 @@ go build
 %install
 install -Dpm755 cmd/buf/buf %{buildroot}%{_bindir}/buf
 
-%files
+%files -n %{libname}
 %{_bindir}/*
