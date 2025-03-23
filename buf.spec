@@ -8,6 +8,7 @@ Version:	1.50.1
 Release:	1
 URL:		https://github.com/bufbuild/buf
 Source0:	%{url}/archive/v%{version}/%{name}-%{version}.tar.gz
+Source1:    buf-1.50.1-vendor.tar.gz
 Summary:	The best way of working with Protocol Buffers.
 Group:      System/Libraries
 License:	Apache-2.0
