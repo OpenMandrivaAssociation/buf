@@ -27,6 +27,7 @@ Provides:   %{libname} = %{EVRD}
 
 %prep
 %autosetup -p1
+tar -xzf %{SOURCE1}
 
 %build
 cd cmd/buf
