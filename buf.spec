@@ -26,6 +26,7 @@ Provides:   %{libname} = %{EVRD}
 
 %prep
 %autosetup -p1
+
 %build
 cd cmd/buf
 go build
