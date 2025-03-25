@@ -5,7 +5,7 @@
 
 Name:		buf
 Version:	1.50.1
-Release:	1
+Release:	2
 URL:		https://github.com/bufbuild/buf
 Source0:	%{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 Source1:    buf-1.50.1-vendor.tar.gz
@@ -22,8 +22,10 @@ BuildRequires:	go
 Summary:    %{summary}
 Group:      System/Libraries
 Provides:   %{libname} = %{EVRD}
+Provides:   %{name}
 
 %description -n %{libname}
+
 
 %prep
 %autosetup -p1
